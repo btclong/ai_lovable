@@ -1,0 +1,492 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Neon User",
+      "email": "kb@example.com",
+      "password": "1234",
+      "createdAt": "2026-05-01T09:00:00.000Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "p1",
+      "userId": "u1",
+      "name": "Neon User",
+      "email": "kb@example.com",
+      "phone": "010-1234-5678",
+      "job": "Vue3 학습자",
+      "memo": "회원가입/로그인/프로필 보기 실습용 기본 계정입니다.",
+      "avatar": "https://api.dicebear.com/8.x/thumbs/svg?seed=kb-user&backgroundColor=b6f0ff"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "a1",
+      "userId": "u1",
+      "name": "생활비 입출금통장",
+      "bank": "KB국민은행",
+      "type": "입출금",
+      "accountNumber": "110-****-123456",
+      "balance": 1845000,
+      "status": "정상",
+      "icon": "💳"
+    },
+    {
+      "id": "a2",
+      "userId": "u1",
+      "name": "비상금 통장",
+      "bank": "KB국민은행",
+      "type": "저축",
+      "accountNumber": "110-****-654321",
+      "balance": 3200000,
+      "status": "정상",
+      "icon": "🛡️"
+    },
+    {
+      "id": "a3",
+      "userId": "u1",
+      "name": "투자 대기자금",
+      "bank": "KB증권",
+      "type": "CMA",
+      "accountNumber": "720-****-778899",
+      "balance": 1250000,
+      "status": "정상",
+      "icon": "📈"
+    },
+    {
+      "id": "a4",
+      "userId": "u1",
+      "name": "여행 준비 통장",
+      "bank": "KB국민은행",
+      "type": "목적저축",
+      "accountNumber": "110-****-246810",
+      "balance": 680000,
+      "status": "정상",
+      "icon": "✈️"
+    },
+    {
+      "id": "a5",
+      "userId": "u1",
+      "name": "월급 통장",
+      "bank": "KB국민은행",
+      "type": "급여",
+      "accountNumber": "110-****-135790",
+      "balance": 2400000,
+      "status": "정상",
+      "icon": "💼"
+    },
+    {
+      "id": "a6",
+      "userId": "u1",
+      "name": "카드 결제 계좌",
+      "bank": "KB국민은행",
+      "type": "결제",
+      "accountNumber": "110-****-112233",
+      "balance": 520000,
+      "status": "정상",
+      "icon": "🧾"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "t1",
+      "userId": "u1",
+      "type": "income",
+      "amount": 2800000,
+      "category": "💼 급여",
+      "description": "5월 월급",
+      "date": "2026-05-01",
+      "createdAt": "2026-05-01T09:00:00.000Z",
+      "updatedAt": "2026-05-01T09:00:00.000Z"
+    },
+    {
+      "id": "t2",
+      "userId": "u1",
+      "type": "income",
+      "amount": 350000,
+      "category": "🎁 보너스",
+      "description": "성과 보너스",
+      "date": "2026-05-03",
+      "createdAt": "2026-05-03T09:00:00.000Z",
+      "updatedAt": "2026-05-03T09:00:00.000Z"
+    },
+    {
+      "id": "t3",
+      "userId": "u1",
+      "type": "income",
+      "amount": 42000,
+      "category": "🪙 이자",
+      "description": "예금 이자",
+      "date": "2026-05-05",
+      "createdAt": "2026-05-05T09:00:00.000Z",
+      "updatedAt": "2026-05-05T09:00:00.000Z"
+    },
+    {
+      "id": "t4",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 62000,
+      "category": "🍱 식비",
+      "description": "주간 장보기",
+      "date": "2026-05-03",
+      "createdAt": "2026-05-03T09:00:00.000Z",
+      "updatedAt": "2026-05-03T09:00:00.000Z"
+    },
+    {
+      "id": "t5",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 48000,
+      "category": "🚇 교통비",
+      "description": "교통카드 충전",
+      "date": "2026-05-04",
+      "createdAt": "2026-05-04T09:00:00.000Z",
+      "updatedAt": "2026-05-04T09:00:00.000Z"
+    },
+    {
+      "id": "t6",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 129000,
+      "category": "🏠 공과금",
+      "description": "관리비와 전기요금",
+      "date": "2026-05-06",
+      "createdAt": "2026-05-06T09:00:00.000Z",
+      "updatedAt": "2026-05-06T09:00:00.000Z"
+    },
+    {
+      "id": "t7",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 89000,
+      "category": "📱 통신비",
+      "description": "휴대폰 요금",
+      "date": "2026-05-07",
+      "createdAt": "2026-05-07T09:00:00.000Z",
+      "updatedAt": "2026-05-07T09:00:00.000Z"
+    },
+    {
+      "id": "t8",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 34000,
+      "category": "☕ 카페",
+      "description": "카페 미팅",
+      "date": "2026-05-08",
+      "createdAt": "2026-05-08T09:00:00.000Z",
+      "updatedAt": "2026-05-08T09:00:00.000Z"
+    },
+    {
+      "id": "t9",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 76000,
+      "category": "🎬 문화생활",
+      "description": "영화와 전시",
+      "date": "2026-05-09",
+      "createdAt": "2026-05-09T09:00:00.000Z",
+      "updatedAt": "2026-05-09T09:00:00.000Z"
+    },
+    {
+      "id": "t10",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 24000,
+      "category": "🎬 문화생활",
+      "description": "여가 활동",
+      "date": "2026-05-10",
+      "createdAt": "2026-05-10T09:00:00.000Z",
+      "updatedAt": "2026-05-10T09:00:00.000Z"
+    },
+    {
+      "id": "t11",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 79000,
+      "category": "📚 교육",
+      "description": "학습비",
+      "date": "2026-05-11",
+      "createdAt": "2026-05-11T09:00:00.000Z",
+      "updatedAt": "2026-05-11T09:00:00.000Z"
+    },
+    {
+      "id": "t12",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 9000,
+      "category": "🍱 식비",
+      "description": "식사/간식 지출",
+      "date": "2026-05-12",
+      "createdAt": "2026-05-12T09:00:00.000Z",
+      "updatedAt": "2026-05-12T09:00:00.000Z"
+    },
+    {
+      "id": "t13",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 7000,
+      "category": "🔖 기타지출",
+      "description": "기타 생활비",
+      "date": "2026-05-13",
+      "createdAt": "2026-05-13T09:00:00.000Z",
+      "updatedAt": "2026-05-13T09:00:00.000Z"
+    },
+    {
+      "id": "t14",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 15000,
+      "category": "🎬 문화생활",
+      "description": "여가 활동",
+      "date": "2026-05-14",
+      "createdAt": "2026-05-14T09:00:00.000Z",
+      "updatedAt": "2026-05-14T09:00:00.000Z"
+    },
+    {
+      "id": "t15",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 16000,
+      "category": "🔖 기타지출",
+      "description": "기타 생활비",
+      "date": "2026-05-15",
+      "createdAt": "2026-05-15T09:00:00.000Z",
+      "updatedAt": "2026-05-15T09:00:00.000Z"
+    },
+    {
+      "id": "t16",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 9000,
+      "category": "🍱 식비",
+      "description": "식사/간식 지출",
+      "date": "2026-05-16",
+      "createdAt": "2026-05-16T09:00:00.000Z",
+      "updatedAt": "2026-05-16T09:00:00.000Z"
+    },
+    {
+      "id": "t17",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 43000,
+      "category": "📚 교육",
+      "description": "학습비",
+      "date": "2026-05-17",
+      "createdAt": "2026-05-17T09:00:00.000Z",
+      "updatedAt": "2026-05-17T09:00:00.000Z"
+    },
+    {
+      "id": "t18",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 6000,
+      "category": "🚇 교통비",
+      "description": "이동 비용",
+      "date": "2026-05-18",
+      "createdAt": "2026-05-18T09:00:00.000Z",
+      "updatedAt": "2026-05-18T09:00:00.000Z"
+    },
+    {
+      "id": "t19",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 55000,
+      "category": "🚇 교통비",
+      "description": "이동 비용",
+      "date": "2026-05-19",
+      "createdAt": "2026-05-19T09:00:00.000Z",
+      "updatedAt": "2026-05-19T09:00:00.000Z"
+    },
+    {
+      "id": "t20",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 25000,
+      "category": "📚 교육",
+      "description": "학습비",
+      "date": "2026-05-20",
+      "createdAt": "2026-05-20T09:00:00.000Z",
+      "updatedAt": "2026-05-20T09:00:00.000Z"
+    },
+    {
+      "id": "t21",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 6000,
+      "category": "🚇 교통비",
+      "description": "이동 비용",
+      "date": "2026-05-21",
+      "createdAt": "2026-05-21T09:00:00.000Z",
+      "updatedAt": "2026-05-21T09:00:00.000Z"
+    },
+    {
+      "id": "t22",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 31000,
+      "category": "🍱 식비",
+      "description": "식사/간식 지출",
+      "date": "2026-05-22",
+      "createdAt": "2026-05-22T09:00:00.000Z",
+      "updatedAt": "2026-05-22T09:00:00.000Z"
+    },
+    {
+      "id": "t23",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 25000,
+      "category": "📚 교육",
+      "description": "학습비",
+      "date": "2026-05-23",
+      "createdAt": "2026-05-23T09:00:00.000Z",
+      "updatedAt": "2026-05-23T09:00:00.000Z"
+    },
+    {
+      "id": "t24",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 22000,
+      "category": "🏠 공과금",
+      "description": "주거 관련 비용",
+      "date": "2026-05-24",
+      "createdAt": "2026-05-24T09:00:00.000Z",
+      "updatedAt": "2026-05-24T09:00:00.000Z"
+    },
+    {
+      "id": "t25",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 16000,
+      "category": "🔖 기타지출",
+      "description": "기타 생활비",
+      "date": "2026-05-25",
+      "createdAt": "2026-05-25T09:00:00.000Z",
+      "updatedAt": "2026-05-25T09:00:00.000Z"
+    },
+    {
+      "id": "t26",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 28000,
+      "category": "💊 의료비",
+      "description": "약국/병원 지출",
+      "date": "2026-05-26",
+      "createdAt": "2026-05-26T09:00:00.000Z",
+      "updatedAt": "2026-05-26T09:00:00.000Z"
+    },
+    {
+      "id": "t27",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 115000,
+      "category": "🛍️ 쇼핑",
+      "description": "생활용품 구매",
+      "date": "2026-05-27",
+      "createdAt": "2026-05-27T09:00:00.000Z",
+      "updatedAt": "2026-05-27T09:00:00.000Z"
+    },
+    {
+      "id": "t28",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 55000,
+      "category": "🚇 교통비",
+      "description": "이동 비용",
+      "date": "2026-05-28",
+      "createdAt": "2026-05-28T09:00:00.000Z",
+      "updatedAt": "2026-05-28T09:00:00.000Z"
+    },
+    {
+      "id": "t29",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 64000,
+      "category": "💊 의료비",
+      "description": "약국/병원 지출",
+      "date": "2026-05-29",
+      "createdAt": "2026-05-29T09:00:00.000Z",
+      "updatedAt": "2026-05-29T09:00:00.000Z"
+    },
+    {
+      "id": "t30",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 28000,
+      "category": "🛍️ 쇼핑",
+      "description": "생활용품 구매",
+      "date": "2026-05-30",
+      "createdAt": "2026-05-30T09:00:00.000Z",
+      "updatedAt": "2026-05-30T09:00:00.000Z"
+    },
+    {
+      "id": "t31",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 51000,
+      "category": "🏠 공과금",
+      "description": "주거 관련 비용",
+      "date": "2026-05-31",
+      "createdAt": "2026-05-31T09:00:00.000Z",
+      "updatedAt": "2026-05-31T09:00:00.000Z"
+    },
+    {
+      "id": "t32",
+      "userId": "u1",
+      "type": "income",
+      "amount": 120000,
+      "category": "💻 사업소득",
+      "description": "프리랜스 정산",
+      "date": "2026-04-25",
+      "createdAt": "2026-04-25T09:00:00.000Z",
+      "updatedAt": "2026-04-25T09:00:00.000Z"
+    },
+    {
+      "id": "t33",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 48000,
+      "category": "🛍️ 쇼핑",
+      "description": "생활용품",
+      "date": "2026-04-26",
+      "createdAt": "2026-04-26T09:00:00.000Z",
+      "updatedAt": "2026-04-26T09:00:00.000Z"
+    },
+    {
+      "id": "t34",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 23000,
+      "category": "🍱 식비",
+      "description": "외식",
+      "date": "2026-04-27",
+      "createdAt": "2026-04-27T09:00:00.000Z",
+      "updatedAt": "2026-04-27T09:00:00.000Z"
+    },
+    {
+      "id": "t35",
+      "userId": "u1",
+      "type": "expense",
+      "amount": 15000,
+      "category": "☕ 카페",
+      "description": "스터디 카페",
+      "date": "2026-04-28",
+      "createdAt": "2026-04-28T09:00:00.000Z",
+      "updatedAt": "2026-04-28T09:00:00.000Z"
+    }
+  ],
+  "gameResults": [
+    {
+      "id": "g1",
+      "userId": "u1",
+      "score": 72,
+      "resultTitle": "예산 전략가 💎",
+      "answers": 3,
+      "analysis": [
+        "저축률을 20% 이상으로 유지하도록 월초 자동이체를 설정하세요.",
+        "식비와 카페 지출은 주간 한도를 정하면 관리가 쉬워집니다."
+      ],
+      "createdAt": "2026-05-06T14:20:00.000Z"
+    }
+  ]
+}
